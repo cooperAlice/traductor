@@ -1,0 +1,65 @@
+*{
+    margin: 0.2cm;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+h2 {
+    color: #333;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del resultado de la traducción */
+#translation-result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo del input de texto */
+#text-to-translate {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: rgb(103, 95, 108);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Alineación del texto */
+}
